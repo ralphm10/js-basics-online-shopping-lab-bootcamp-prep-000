@@ -12,7 +12,7 @@ function setCart(c) {
 function addToCart(item) {
  // write your code here
  
- if cart.length 
+ if (cart.length > 0
  var price = Math.round(Math.random() * 100);
  var itemdetail = {itemName: item, itemPrice: price};
  cart.push(itemdetail);
