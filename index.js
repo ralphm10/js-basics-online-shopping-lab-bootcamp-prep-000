@@ -18,7 +18,9 @@ var price = Math.round(Math.random() * 100);
  return `${item} has been added to your cart.`; 
  }  
 
-function viewCart() {if cart.length > 0
+function viewCart() {if cart.length > 0) {
+}
+
   // write your code here
 }
 
