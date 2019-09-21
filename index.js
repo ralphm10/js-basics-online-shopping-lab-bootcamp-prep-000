@@ -20,7 +20,7 @@ var price = Math.round(Math.random() * 100);
 
 function viewCart() {
   if (cart.length > 0) {return `In your cart, you have ${item} at ${price}`}
- else {return "your cart is currently empty"}
+ else {return "Your shopping cart is empty"}
 
   // write your code here
 }
