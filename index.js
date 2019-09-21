@@ -19,7 +19,7 @@ var price = Math.round(Math.random() * 100);
  }  
 
 function viewCart() {
-  (if cart.length > 0) {return 
+  if (cart.length > 0) {return 
 }
 
   // write your code here
