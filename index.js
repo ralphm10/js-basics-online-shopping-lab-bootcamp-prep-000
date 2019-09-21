@@ -17,7 +17,7 @@ function addToCart(item) {
  var itemdetail = {itemName: item, itemPrice: price};
  cart.push(itemdetail);
  return `${item} has been added to your cart.`; 
- } else {return "Your shopping cart is empty"}
+ } else return "Your shopping cart is empty";
 }
 
 function viewCart() {
