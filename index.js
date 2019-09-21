@@ -12,13 +12,13 @@ function setCart(c) {
 function addToCart(item) {
  // write your code here
  
- 
  var price = Math.round(Math.random() * 100);
  var itemdetail = {itemName: item, itemPrice: price};
+ 
+ if (cart.length > 0) 
  cart.push(itemdetail);
  return `${item} has been added to your cart.`; 
- 
-}
+ }  
 
 function viewCart() {
   // write your code here
