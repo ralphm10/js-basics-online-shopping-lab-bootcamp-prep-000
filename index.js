@@ -15,10 +15,11 @@ function addToCart(item) {
  var price = Math.round(Math.random() * 100);
  var itemdetail = {itemName: item, itemPrice: price};
  
- if (cart.length > 0) 
+ if (cart.length > 0) {
  cart.push(itemdetail);
  return `${item} has been added to your cart.`; 
- }  
+ }  else {return "shite" }
+ }
 
 function viewCart() {
   // write your code here
